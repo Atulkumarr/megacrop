@@ -1,0 +1,576 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fix-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/***************************************************************************************************
+                                            section-1 start here
+ *************************************************************************************************** */
+
+.section-1-main-box {
+    background-image: url(../images/banner.jpg);
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.navigation {
+    color: #fff;
+    padding-top: 3%;
+}
+
+.navigation h1 {
+    float: left;
+}
+
+.navicon {
+    display: none;
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+}
+
+.navigation ul {
+    float: right;
+    margin-top: 11px;
+}
+
+.navigation li {
+    float: left;
+    list-style: none;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 15px 15px;
+}
+
+.navigation a:hover {
+    background-color: #2B8FC4;
+    padding: 15px 15px;
+    border-radius: 6px;
+}
+
+.section-1-body {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12%;
+    color: #fff;
+}
+
+.section-1-body h1 {
+    margin-bottom: 23px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.section-1-body p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    padding: 12px 6px;
+    margin-top: 30px;
+    background-color: #2B8FC4;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.button-margin {
+    margin-bottom: 15%;
+}
+
+.btn:hover {
+    height: 50px;
+    width: 150px;
+    padding: 12px 6px;
+    margin-top: 30px;
+    background-color: #4ab6f0;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+/***************************************************************************************************
+                                            section-2 start here
+ *************************************************************************************************** */
+
+.section-2-main-box {
+    background-color: #0C0E0F;
+    padding: 5% 0%;
+    color: #c1c1c1;
+}
+
+.section-2-box {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.section-2-box h3 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.section-2-box .icon {
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.section-2-box p {
+    line-height: 25px;
+}
+
+
+/***************************************************************************************************
+                                            section-3 start here
+ *************************************************************************************************** */
+
+.section-3-main-box {
+    background-color: #101214;
+    color: #c1c1c1;
+    padding: 4% 0%;
+}
+
+
+/************************************************************************************************* 
+                                            section-3-left-box
+************************************************************************************************** */
+
+.section-3-box-1 {
+    border-bottom: 1px solid #fff;
+}
+
+.section-3-box-1 h1 {
+    margin-bottom: 20px;
+}
+
+.section-3-box-1 img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.section-3-box-1 p {
+    line-height: 26px;
+}
+
+.section-3-left-box {
+    float: left;
+    width: 66%;
+}
+
+.btn-margin {
+    margin-bottom: 30px;
+}
+
+
+/*****************************************************
+        section-3-box/left box/(left-box)
+*****************************************************/
+
+.left-box {
+    float: left;
+    width: 49%;
+}
+
+.left-box-1 {
+    border-bottom: 1px solid #fff;
+}
+
+.left-box-1 h1 {
+    padding-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.left-box p {
+    line-height: 24px;
+}
+
+.para-margin {
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    width: 85px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #2B8FC4;
+    padding: 10px 5px;
+    margin: 25px 0px;
+}
+
+.btn-1:hover {
+    width: 85px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #4ab6f0;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 25px 0px;
+}
+
+.left-box span {
+    margin-left: 10px;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+/*************************************************
+        section-3-box/ left box/ (right box)
+*************************************************/
+
+.right-box {
+    float: right;
+    width: 48%;
+}
+
+.right-box-1 {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.right-box-1 h1 {
+    padding-top: 40px;
+    font-weight: 400;
+}
+
+.right-box-1 h6 {
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 26px;
+}
+
+.right-box li {
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+.right-box-2 {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.right-box h4 {
+    font-size: 17px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* ******************************************************************************************************
+                                                section-3-right-box 
+*********************************************************************************************************/
+
+.section-3-right-box {
+    float: right;
+    width: 30%;
+}
+
+.box {
+    width: 100%;
+}
+
+.box-left-box {
+    float: left;
+    width: 40%;
+}
+
+.box h3 {
+    margin-bottom: 13px;
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+.box li {
+    padding: 5px 0px;
+}
+
+.border {
+    border-bottom: 1px solid #fff;
+}
+
+.box-right-box {
+    float: right;
+    width: 40%;
+}
+
+.new-line {
+    clear: both;
+    padding-top: 10px;
+}
+
+.box-2 {
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.box-2-left-box {
+    width: 27%;
+    float: left;
+}
+
+.box-2-left-box img {
+    width: 80%;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+.box-2-right-box {
+    width: 70%;
+    float: right;
+}
+
+.box-2 h1 {
+    margin: 25px 0px;
+    font-size: 25px;
+}
+
+
+/* ******************************************************************************************************
+                                                Footer 
+*********************************************************************************************************/
+
+.footer {
+    background-color: #101214;
+    color: #fff;
+    text-align: center;
+}
+
+.fix-footer {
+    padding: 50px 0px;
+    border-top: 1px solid #fff;
+}
+
+
+/***************************************************************************************************
+                                            media query start here
+ *************************************************************************************************** */
+
+
+/*************************************************
+        media query 990px
+*************************************************/
+
+@media only screen and (max-width:990px) {
+    .box li {
+        font-size: 15px;
+    }
+    .box-left-box {
+        float: left;
+        width: 48%;
+    }
+    .box-right-box {
+        float: right;
+        width: 48%;
+    }
+}
+
+
+/*************************************************
+        media query 770px
+*************************************************/
+
+@media only screen and (max-width:770px) {
+    /* section-2 */
+    .section-2-box {
+        width: 45%;
+    }
+    .center {
+        width: 49%;
+        margin: 6% 25%;
+    }
+    /* section-3 */
+    /* left-section */
+    .box-left-box {
+        text-align: center;
+        width: 100%;
+    }
+    .box-left-box li {
+        border-bottom: none;
+    }
+    .box-right-box {
+        text-align: center;
+        width: 100%;
+    }
+    .box-right-box li {
+        border-bottom: none;
+    }
+    .box-2-left-box {
+        width: 100%;
+    }
+    .box-2-left-box img {
+        width: 30%;
+        margin-left: 36%;
+    }
+    .box-2-right-box {
+        width: 100%;
+        text-align: center;
+    }
+    .new-line {
+        text-align: center;
+    }
+    .btn-size {
+        height: 35px;
+        width: 120px;
+        padding: 8px 4px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .section-3-left-box {
+        width: 57%;
+    }
+    .section-3-right-box {
+        width: 40%;
+    }
+    .left-box {
+        width: 100%;
+    }
+    .right-box {
+        width: 100%;
+    }
+}
+
+
+/*************************************************
+        media query 750px
+*************************************************/
+
+@media only screen and (max-width:750px) {
+    .navicon {
+        display: inline-block;
+    }
+    .navigation li {
+        display: none;
+    }
+}
+
+
+/*************************************************
+        media query 600px
+*************************************************/
+
+@media only screen and (max-width:600px) {
+    .section-1-body h1 {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .section-1-body p {
+        font-size: 17px;
+    }
+    .btn-size-2 {
+        height: 40px;
+        width: 130px;
+        padding: 10px 4px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .btn-size-2:hover {
+        height: 40px;
+        width: 130px;
+        padding: 10px 4px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+}
+
+
+/*************************************************
+        media query 520px
+*************************************************/
+
+@media only screen and (max-width:550px) {
+    .section-2-box {
+        width: 90%;
+    }
+    .center {
+        width: 90%;
+        margin: 3%;
+    }
+    .box-2 h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .section-3-box-1 h1 {
+        font-size: 25px;
+    }
+    .left-box-1 h1 {
+        font-size: 25px;
+    }
+    .left-box span {
+        margin-left: 5px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .btn-1 {
+        margin-top: 25px;
+        margin-bottom: 2px;
+    }
+    .btn-1:hover {
+        margin-top: 25px;
+        margin-bottom: 2px;
+    }
+}
+
+
+/*************************************************
+        media query 440px
+*************************************************/
+
+@media only screen and (max-width:440px) {
+    .section-1-body h1 {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .section-1-body p {
+        font-size: 17px;
+    }
+    .section-1-body {
+        margin-top: 8%;
+    }
+    .section-3-left-box {
+        width: 100%;
+    }
+    .section-3-right-box {
+        width: 100%;
+    }
+    .box-left-box {
+        width: 45%;
+    }
+    .box-right-box {
+        width: 45%;
+    }
+}
